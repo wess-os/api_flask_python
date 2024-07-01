@@ -9,8 +9,8 @@
     - python src/main.py
 
 ## 3: (rotas disponíveis)
-    - http://localhost:5000/api/alunos/list
-    - http://localhost:5000/api/alunos/create
+    - /api/alunos/list
+    - /api/alunos/create
 
 ## 4: (conexão com o banco de dados)
     - por hora, os dados são inseridos no arquivo bd.py, mas futuramente será criado a conexão com o banco de dados
