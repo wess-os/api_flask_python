@@ -1,9 +1,9 @@
 ## 1: (criação do ambiente virtual)
-    - python -m venv .venv
-    - .venv\Scripts\activate
+    - python -m venv venv
+    - source venv/bin/activate
     - pip install flask
 
-    - obs: para sair do ambiente virtual, basta digitar o comando: source deactivate
+    - obs: para sair do ambiente virtual, basta digitar o comando: 'source deactivate'
 
 ## 2: (executar o app)
     - python src/main.py
