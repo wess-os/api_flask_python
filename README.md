@@ -12,7 +12,24 @@
 
 ## 3: (rotas disponíveis)
     - /api/alunos/list
+        {
+            "nome":"",
+            "idade":""
+        }
+
     - /api/alunos/create
+        {
+            "nome":"",
+            "idade":""
+        }
+
+    - /api/alunos/<id_aluno>/update
+        {
+            "nome":"",
+            "idade":""
+        }
+        
+    - /api/alunos/<id_aluno>/delete
 
 ## 4: (executar o app)
     - python src/main.py
